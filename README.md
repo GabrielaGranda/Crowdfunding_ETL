@@ -6,7 +6,7 @@ Create the Category and Subcategory DataFrames
 Create the Campaign DataFrame
 Create the Contacts DataFrame
 Create the Crowdfunding Database
-Instructions
+## Instructions
 1. Create the Category and Subcategory DataFrames
 Category DataFrame
 Objective: Extract and transform data from crowdfunding.xlsx to create a category DataFrame.
@@ -40,7 +40,6 @@ subcategory_id: Match subcategory_id in the Subcategory DataFrame
 Export: Save the DataFrame as campaign.csv.
 3. Create the Contacts DataFrame
 Choose one of the following options:
-
 Option 1: Using Python Dictionary Methods
 Import contacts.xlsx into a DataFrame.
 Convert each row to a dictionary and extract values using list comprehension.
@@ -51,6 +50,7 @@ Import contacts.xlsx into a DataFrame.
 Use regular expressions to extract contact_id, name, and email.
 Create a new DataFrame and split the name column into first_name and last_name.
 Export the DataFrame as contacts.csv.
+
 4. Create the Crowdfunding Database
 Sketch an ERD: Inspect the CSV files and create an Entity-Relationship Diagram (ERD) using QuickDBD.
 Create Table Schema: Define schemas for each table in the crowdfunding_db_schema.sql file.
